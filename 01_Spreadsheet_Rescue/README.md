@@ -1,39 +1,42 @@
-# 01 — Spreadsheet Rescue
+# Order Data Review
 
-## Project status
-Demonstration workbook created. All records are fictional and synthetic.
+A spreadsheet-cleaning demonstration based on order records from a fictional UK skincare retailer.
 
-## Scenario
-A fictional skincare retailer has inconsistent order records across 55 source rows.
+## The task
 
-## What the workbook demonstrates
-- Standardising order IDs, dates, customer names, product labels, payment statuses and city formatting.
-- Removing one exact duplicate row while retaining a documented note.
-- Separating incomplete, invalid or conflicting records into a review queue rather than guessing.
-- Maintaining a change log so the cleaning process is transparent.
+The source file contains 55 order rows with inconsistent dates, order IDs, names, product labels and payment-status formatting. It also includes missing values, invalid entries and a duplicate order ID that needs checking.
 
-## Workbook sheets
-1. **Read Me** — scenario, scope and summary.
-2. **Raw Data** — original messy source records.
-3. **Cleaned Data** — records that passed the defined checks.
-4. **Review Queue** — records needing clarification.
-5. **Change Log** — documented standardisations and exceptions.
+## Work completed
 
-## Demonstration results
-- 55 source rows
-- 46 records in Cleaned Data
-- 8 records in Review Queue
-- 1 exact duplicate row excluded (retained once and documented)
+- Standardised clear formatting and spelling inconsistencies.
+- Removed one exact duplicate row.
+- Kept incomplete or questionable records in a separate review queue.
+- Recorded changes and exceptions in a change log.
+- Left unresolved conflicts for review instead of making assumptions.
 
-These counts are specific to this synthetic demonstration, not client results.
+## Workbook
 
-## Important decisions
-- Conflicting duplicate order IDs are not automatically resolved.
-- Missing customer/product/price/quantity values are not invented.
-- Invalid dates and non-positive quantities are flagged for review.
-- Payment statuses are preserved; this workbook does not calculate revenue.
+The Excel file contains five sheets:
 
-## File
-Upload **Spreadsheet_Rescue_Demo.xlsx** to this folder in the repository.
+| Sheet | Purpose |
+|---|---|
+| Overview | Brief description and record counts |
+| Raw Data | Original source records |
+| Cleaned Data | Records that passed the cleaning checks |
+| Review Queue | Records requiring clarification |
+| Change Log | Changes made and issues identified |
 
-*This is a skills demonstration, not paid client work.*
+## Results
+
+- 55 original rows
+- 46 cleaned records
+- 8 records flagged for review
+- 1 exact duplicate row removed
+
+The figures relate only to this demonstration dataset.
+
+## Notes
+
+All customer names, locations and transactions are fictional. Prices are presented in GBP for the UK business scenario. Revenue was not calculated because some records still require confirmation.
+
+This project demonstrates spreadsheet organisation and data-quality checks. It is not client work.
