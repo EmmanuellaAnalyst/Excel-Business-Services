@@ -37,6 +37,4 @@ The folders below will contain sample work built with fictional or synthetic dat
 
 ## Contact
 
-For enquiries, contact: **[Add your business email]**
-
-*Project data in this repository is fictional/synthetic unless explicitly stated otherwise.*
+For enquiries, contact: **emmanuellaagorom@gmail.com**
